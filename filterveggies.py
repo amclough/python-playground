@@ -20,7 +20,7 @@ print(greenveggies)
 
 #Write the veggies to a json file called greenveggies.json
 with open("greenveggies.json","w") as f:
-	json.dump(rows, f)
+	json.dump(rows, f, indent=2)
 
 #Bonus: Output another csv called green_vegetables.csv
 with open("green_vegetables.csv", "w") as f:
